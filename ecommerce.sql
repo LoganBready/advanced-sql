@@ -57,7 +57,7 @@ join new_user n on n.user_id = c.user_id;
 select sum(c.quantity*p.price) as result
 from cart c
 join products p on p.product_id = c.product_id
-where c.cart_id = 5;
+where c.cart_id = 2;
 
 update cart
 set quantity = 1
